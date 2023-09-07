@@ -4,9 +4,11 @@ void setup() {
   fill(255, 153, 200);
 };
 
+int rad = 33;
+int flächebreite = 10;
 
 void draw() {
   background(0);
- rect(width/2,0,10,height);
- circle(mouseX, mouseY, 33); 
+ rect(width/2,0,flächebreite,height);
+ circle(mouseX, mouseY, rad); 
 }
